@@ -8,26 +8,8 @@
 
 html {
   scroll-behavior: smooth;
-  // font-size: 62.5%; //1rem = 10px
-  // @include screen(tab-l) {
-  //   font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
-  // }
-  // @include screen(tab-p) {
-  //   font-size: 50%; //1rem = 8px, 8/16 = 50%
-  // }
-  // @include screen(big-desktop) {
-  //   font-size: 75%; //1rem = 12, 12/16 = 75%
-  // }
 }
 
-body {
-  box-sizing: border-box;
-}
-
-::selection {
-  background-color: $primary;
-  color: $white;
-}
 ::-webkit-scrollbar {
   width: 7px;
   background-color: #f5f5f5;

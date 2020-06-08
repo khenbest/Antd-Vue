@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <a-layout style="min-height: 100vh; width: 100vw">
+      <Sider />
+      <Content />
+    </a-layout>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Sider from "@/components/layout/Sider.vue";
+import Content from "@/components/layout/Content.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld,
+    Sider,
+    Content,
   },
 };
 </script>
