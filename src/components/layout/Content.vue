@@ -6,7 +6,7 @@
         <router-view />
       </div>
     </a-layout-content>
-    <a-layout-footer style="background: #fff; padding: 0"></a-layout-footer>
+    <a-layout-footer style="background: #fff; padding: 0">YO</a-layout-footer>
   </a-layout>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 @import "@/sass/main.scss";
 .content {
-  padding: 12px;
+  padding: 1rem;
   background-color: #fff;
   height: 100%;
 }

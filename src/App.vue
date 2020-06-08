@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a-layout style="min-height: 100vh; width: 100vw">
+    <a-layout style="min-height: 100vh">
       <Sider />
       <Content />
     </a-layout>

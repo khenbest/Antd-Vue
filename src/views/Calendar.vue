@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <p>Calendar</p>
-  </div>
+  <FullCalendar />
 </template>
+<script>
+import FullCalendar from "@/components/FullCalendar.vue";
+export default {
+  name: "Calendar",
+  components: { FullCalendar },
+};
+</script>
