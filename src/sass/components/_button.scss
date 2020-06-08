@@ -68,13 +68,6 @@
     &::after {
       background-color: $blue-light;
     }
-    @include screen(tab-p) {
-      background: $gradient-blue;
-      color: $white;
-      &::after {
-        background-color: $gradient-blue;
-      }
-    }
   }
   &--blue-dark {
     background-color: $blue-dark;
